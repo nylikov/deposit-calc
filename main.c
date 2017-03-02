@@ -30,7 +30,7 @@ void dohod (int v, int s)
 
 int main()
 {
-  int c,d,v;
+  int c,d;
   printf("Vvedite symmy vklada i srok\n");
   scanf("%d %d",&c,&d);
   printf("Vklad:%d Srok:%d",c,d);
