@@ -5,14 +5,10 @@ void dohod(int v, int s)
 		printf("Vklad:%d Srok:%d",v,s);
 			{
 				if (v<=100000)
-					{
-						if (s<=30) v=v-v/10;
-					}
+				if (s<=30) v=v-v/10;
 				if (v>100000) 
-					{
-						if (s<=30) v=v-v/10;
-					}
-				if (v<=100000) 
+				if (s<=30) v=v-v/10;
+				if (v<=100000)
 				if (s>30 && s<=120) v=v+v*0.02;
 				if (s>120 && s<=240) v=v+v*0.06;
 				if (s>240 && s<=365) v=v+v*0.12;
